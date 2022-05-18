@@ -1,0 +1,15 @@
+// IF YOUR LOOKING TO EDIT THE THEME GO TO THESE FILES
+// MAIN EDITS -- CLIENT > [YOUR CLIENT] > OPEN AND EDIT
+// SKIN EDITS -- MODULE > SKIN > [SKIN NAME] > OPEN AND EDIT
+
+// Source Code | DONT TOUCH
+@use "./src/source.scss";
+
+// Module Code | DONT TOUCH
+@use "./modules/module";
+
+// Client Code | DONT TOUCH
+@use "./clients/clients.scss";
+
+// Platform Code | DONT TOUCH
+@use "./platform/platform";

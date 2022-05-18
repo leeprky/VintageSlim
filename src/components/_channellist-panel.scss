@@ -1,0 +1,246 @@
+.container-YkUktl {
+    height: 50px;
+    position: relative;
+    bottom: 22px;
+    margin-left: 10px;
+    background-color: var(--background-secondary) !important; 
+    border-radius: var(--radius);
+  }
+
+  .avatarWrapper-1B9FTW{
+      transform: scale(0.94);
+      margin-left: 10px;
+      border-radius: var(--avatar-radius) !important;
+  }
+
+  :root {
+    .wrapper-3t9DeA foreignObject, .callAvatarMask-1SLlRi foreignObject, .avatarContainer-3CQrif foreignObject, .avatarMasked-3y6o4j {
+      mask: none;
+      -webkit-mask: none;
+    }
+  
+    .wrapper-3t9DeA, .avatar-1BDn8e, .profile-1eT9hT .avatarUploaderInner-3UNxY3, .voiceAvatar-14IynY, .avatar-3tNQiO, .border-Jn5IOt, .avatar-3bWpYy, .clickableAvatar-1wQpeh, .emptyUser-7txhlW, .avatar-VxgULZ {
+      border-radius: var(--avatar-radius) !important;
+    }
+  
+    .wrapper-2QE8vf {
+      &.ringingIncoming-38YcLn::after, &.ringingOutgoing-mbXhhQ::after {
+        border-radius: var(--avatar-radius) !important;
+      }
+    }
+  
+    .replyAvatar-1K9Wmr, .avatarSpeaking-2c8-9i, .avatar-3Heyg_, .avatarContainer-2LLZwy, .appAvatar-3bgkQ9 {
+      border-radius: var(--avatar-radius) !important;
+    }
+  }
+  
+  .pointerEvents-2zdfdO {
+    mask: none;
+    pointer-events: none;
+  
+    &[width="8"]:not([mask="url(#svg-mask-status-online-mobile)"]), &[width="10"]:not([mask="url(#svg-mask-status-online-mobile)"]), &[width="12"]:not([mask="url(#svg-mask-status-online-mobile)"]), &[width="16"]:not([mask="url(#svg-mask-status-online-mobile)"]) {
+      rx: var(--avatar-radius) !important;
+    }
+  }
+
+  .nameTag-sc-gpq.canCopy-IgTwyV  {
+      transform: scale(0.95);
+      margin-bottom: 3px;
+  }
+  .avatarWrapper-1B9FTW {
+    margin-bottom: 3px;
+  }
+  .avatarWrapper-1B9FTW, .wrapper-1VLyxH {
+    border-radius: var(--avatar-radius) !important;
+  }
+  
+  .powercord-spotify.hover .container-YkUktl {
+    height: 135px;
+    position: relative;
+    background-color: var(--background-secondary);
+    border-radius: var(--radius);
+  }
+
+  
+  .powercord-spotify .container-YkUktl {
+    bottom: 25px;
+  }
+
+  .button-12Fmur {
+      background-color: transparent;
+      border-radius: var(--radius);
+      margin-left: 3px !important;
+  }
+
+  .activityPanel-9icbyU {
+    height: 35px;
+    position: relative;
+    bottom: 31px;
+    background-color: var(--background-secondary);
+    border-radius: var(--radius);
+    margin-top: 10px;
+    margin-left: 10px;
+    border-bottom: 0px solid var(--background-modifier-accent) !important;
+  }
+  .body-1FrnJD {
+    margin-top: 2px;
+  }
+  .gameWrapper-2TFy7F {
+    margin-left: 12px;
+  }
+  
+  #app-mount .lookFilled-yCfaCM.colorBrand-I6CyqQ:not(.buttonActive-Uc1jHx) {
+    border-radius: var(--radius) !important;
+  }
+  
+  .actionButtons-2vEOUh {
+    margin-top: 4px;
+  }
+  
+  .container-1zzFcN {
+    max-height: auto !important;
+    position: relative;
+    bottom: 30px;
+    margin-top: 5px;
+    background-color: var(--background-secondary);
+    border-radius: var(--radius);
+    margin-left: 10px;
+    border-bottom: 0px solid var(--background-modifier-accent) !important;
+    transition: var(--pop-transition);
+  }
+  
+  :root {
+    --spotify-color:var(--main-colour2) !important;
+  }
+  
+  .powercord-spotify.hover {
+    .nameTag-sc-gpq, .spotify-buttons button {
+      margin-top: -28px;
+      transition: 300ms;
+    }
+  
+    .avatar-1EWyVD.spotify-cover {
+      top: -15px !important;
+      transform: scale(0.9);
+      position: relative;
+      transition: 300ms;
+    }
+  
+    .spotify-extra-controls {
+      margin-top: -35px;
+      transition: 300ms;
+    }
+  
+    [class="flex-2S1XBF flex-3BkGQD horizontal-112GEH horizontal-1Piu5- flex-3BkGQD directionRow-2Iu2A9 justifyStart-2Mwniq alignStretch-Uwowzr noWrap-hBpHBz spotify-buttons"] [aria-label="Mute"] {
+      top: 0px;
+      display: flex !important;
+    }
+  }
+  
+  [class="flex-2S1XBF flex-3BkGQD horizontal-112GEH horizontal-1Piu5- flex-3BkGQD directionRow-2Iu2A9 justifyStart-2Mwniq alignStretch-Uwowzr noWrap-hBpHBz spotify-buttons"] [aria-label="Mute"] {
+    display: none;
+  }
+  
+  .powercord-spotify.hover .title-338goq::after {
+    content: "Spotify";
+    position: absolute;
+    background-color: rgba(var(--main-colour), 50%);
+    border-radius: var(--radius);
+    padding: 2px;
+    right: -110px;
+    top: -32px;
+    width: 65px;
+    text-align: center;
+    font-size: 14px;
+    display: var(--spotify-title-in-music-player);
+  }
+  
+  .spotify-extra-controls {
+    position: relative;
+    top: -45px;
+    transition: 300ms;
+    border-radius: var(--radius);
+  }
+  
+  .powercord-spotify {
+    &.hover .spotify-seek {
+      position: relative;
+      top: -45px;
+      left: 15px;
+      width: 212px;
+      transition: 300ms;
+      border-radius: var(--radius);
+    }
+  
+    .spotify-seek-bar {
+      background-color: rgba(var(--alt-color), 30%);
+      border-radius: var(--radius);
+    }
+  }
+  
+  .spotify-seek-duration {
+    top: 22px;
+    left: -5px;
+    transform: scale(0.8);
+    position: relative;
+    border-radius: var(--radius);
+  }
+  
+  .spotify-seek.no-premium {
+    .spotify-seek-elements, .spotify-seek-bar {
+      display: none;
+    }
+  }
+  
+  .scrollableContainer-15eg7h {
+    background-color: var(--background-secondary) !important;
+    border-radius: var(--radius) !important;
+  }
+  
+  .powercord-spotify .spotify-seek-bar-progress {
+    box-shadow: 0px 0px 20px .5px var(--alt-color2);
+  }
+
+  /* Spotify Covers Go Wheeeee */
+/* profile */
+.assetsLargeImageSpotify-17ME3M {
+  animation: spotify-spin 5s linear infinite;
+  border-radius: 50%;
+  transition: var(--pop-transiton-time);
+}
+.assets-3PQvAh:hover {
+  transform: scale(1.15);
+  transition: var(--pop-transiton-time);
+}
+/* spotify controls pc */
+.spotify-cover {
+  animation: spotify-spin 5s linear infinite;
+}
+/* the animation  */
+@keyframes spotify-spin {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.voiceUsers-3gPcwY {
+  transition: var(--pop-transition);
+  margin-top: 5px;
+}
+.voiceUsers-25eR9q {
+  grid-template-columns: repeat(12px,24px) !important;
+  gap: 8px !important;
+}
+
+.container-YkUktl:not(.powercord-spotify) [class="flex-2S1XBF flex-3BkGQD horizontal-112GEH horizontal-1Piu5- flex-3BkGQD directionRow-2Iu2A9 justifyStart-2Mwniq alignStretch-Uwowzr noWrap-hBpHBz"][style="flex: 0 1 auto;"] {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 5px;
+  padding-left: 5px;
+  border-radius: var(--radius);
+  transform: scale(0.92);
+  margin-right: -5px;
+}

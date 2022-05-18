@@ -1,0 +1,77 @@
+.callContainer-HtHELf {
+    background: var(--background-primary) !important;
+    background-color: var(--background-primary) !important;
+}
+
+.gradientContainer-phMG8d {
+    pointer-events: none;
+    height: 160px;
+    -webkit-transition: opacity .2s ease-in-out;
+    transition: opacity .2s ease-in-out;
+    background-image: -webkit-gradient(linear,left top,left bottom,from(var(--background-primary)),color-stop(19%,rgb(32, 27, 24)),color-stop(34%,rgb(32, 27, 24)),color-stop(47%,rgb(32, 27, 24)),color-stop(56.5%,rgb(32, 27, 24)),color-stop(65%,rgb(32, 27, 24)),color-stop(73%,rgb(32, 27, 24)),color-stop(80.2%,rgb(32, 27, 24)),color-stop(86.1%,rgb(32, 27, 24)),color-stop(91%,rgb(32, 27, 24)),color-stop(95.2%,rgb(32, 27, 24)),color-stop(98.2%,rgb(32, 27, 24)),to(transparent));
+    background-image: linear-gradient(var(--background-primary),rgba(32, 27, 24, 0.925) 19%,rgba(32, 27, 24, 0.712) 34%,rgba(32, 27, 24, 0.658) 47%,rgba(32, 27, 24, 0.452) 56.5%,rgba(32, 27, 24, 0.336) 65%,rgba(32, 27, 24, 0.212) 73%,rgba(32, 27, 24, 0.151) 80.2%,rgba(32, 27, 24, 0.062) 86.1%,rgba(32, 27, 24, 0.0) 90.1, rgba(32, 27, 24, 0.027) 27, 24) 95.2%,rgb(32, 27, 24) 98.2%,transparent;
+}
+
+.callContainer-HtHELf {
+    padding: 5px;
+    margin: 8px 16px 5px 16px;
+    border-radius: var(--radius) !important;
+    background-color: var(--background-secondary) !important;
+}
+
+.wrapper-1gVUIN.minimum-fXpVNc {
+    background-color: var(--background-primary);
+}
+
+.root-22AK9z {
+    padding-top: 10px;
+}
+.quickSelect-384d3G {
+    padding-top: 10px;
+}
+
+.root-22AK9z .videoControls-353CsJ .controlSection-1mNixL .headerWrapper-1ULEPv .container-ZMc96U {
+    background-color: var(--background-tertiary) !important;
+}
+
+.quickSelect-384d3G {
+    margin-right: 10px;
+    transform: scale(1) !important;
+    box-shadow: none !important;
+}
+
+.iconWrapper-2awDjA[aria-label="Start Voice Call"] {
+    background-color: var(--call-colour);
+}
+
+.iconWrapper-2awDjA[aria-label="Start Video Call"] {
+    background-color: var(--call-colour);
+}
+
+.status-1ZXjSF {
+    position: absolute !important;
+    border-radius: var(--avatar-radius);
+    color: #fff;
+    width: 80px;
+    height: 80px;
+    padding: 0;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.452);
+}
+
+.status-1ZXjSF path {
+    display: none;
+}
+
+[mask="url(#svg-mask-avatar-voice-call-80)"]::after,
+.status-1ZXjSF [d="M6.16204 15.0065C6.10859 15.0022 6.05455 15 6 15H4V12C4 7.588 7.589 4 12 4C13.4809 4 14.8691 4.40439 16.0599 5.10859L17.5102 3.65835C15.9292 2.61064 14.0346 2 12 2C6.486 2 2 6.485 2 12V19.1685L6.16204 15.0065Z"],
+.status-1ZXjSF [d="M19.725 9.91686C19.9043 10.5813 20 11.2796 20 12V15H18C16.896 15 16 15.896 16 17V20C16 21.104 16.896 22 18 22H20C21.105 22 22 21.104 22 20V12C22 10.7075 21.7536 9.47149 21.3053 8.33658L19.725 9.91686Z"],
+.status-1ZXjSF [d="M3.20101 23.6243L1.7868 22.2101L21.5858 2.41113L23 3.82535L3.20101 23.6243Z"] {
+    content: url("https://raw.githubusercontent.com/leeprky/leeprky.github.io/gh-pages/mute-122-474987.png");
+    transform: scale(0.5) !important;
+    top: -90px !important;
+    left: -86px;
+    position: absolute;
+}

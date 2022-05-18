@@ -1,0 +1,95 @@
+// List
+.guilds-2JjMmN {
+    width: 90px;
+}
+.tree-3agP2X {
+    margin-left: 10px;
+    margin-top: 0px;
+}
+div[style="opacity: 1; height: 56px; transform: scale(1);"] {
+    top: 8px;
+    position: relative;
+}
+
+.wrapper-28eC3z {
+    background-color: var(--background-secondary);
+    transition: var(--pop-transition);
+}
+.wrapper-28eC3z:hover {
+    transition: var(--pop-transition);
+    background-color: rgba(var(--alt-color), 0.2)
+}
+
+// Items 
+.item-2LIpTv {
+    border-radius: var(--radius);
+    width: 3px;
+    margin-left: 1px;
+    min-height: 15px;
+    transform: var(--pop-transition);
+}
+
+div[style="opacity: 1; height: 56px; transform: scale(1);"] {
+    margin-bottom: 2px;
+    top: 0px;
+}
+
+  /* the animation  */
+  @keyframes ping-animation {
+    0% {
+      transform: scale(1);
+      transition: var(--pop-transition);
+    }
+    25% {
+        transform: scale(1.06);
+        transition: var(--pop-transition);
+      }
+    50% {
+        transform: scale(1.12);
+        transition: var(--pop-transition);
+    }
+    75% {
+        transform: scale(1.06);
+        transition: var(--pop-transition);
+    }
+    100% {
+        transform: scale(1);
+        transition: var(--pop-transition);
+      }
+  }
+
+.numberBadge-37OJ3S,
+.wrapper-2olG5t.badge-3k1jbq {
+	border-radius: 5px !important;
+    background-color: var(--alt-color2) !important;
+    animation: ping-animation 5s linear infinite;
+    transition: var(--pop-transition);
+}
+
+.lowerBadge-3WTshO {
+    pointer-events: none;
+    position: absolute;
+    right: -5px;
+    bottom: -2px;
+    border-radius: var(--radius) !important;
+}
+.upperBadge-1V6Iyi {
+    pointer-events: none;
+    position: absolute;
+    right: -5px;
+    top: -5px;
+    border-radius: var(--radius) !important;
+}
+.iconBadge-32fMme.participating-2Z81oO {
+    background-color: var(--alt-color2) !important;
+}
+
+.folder-241Joy [style="background-color: rgba(88, 101, 242, 0.4);"] {
+    background-color: rgba(var(--alt-color2), 0.3);
+}
+.folderIconWrapper-1oRIZr {
+    border-radius: var(--radius) !important;
+}
+.folderIconWrapper-1oRIZr[style="background-color: rgba(88, 101, 242, 0.4);"] {
+    background-color:  rgba(var(--alt-color), 0.3) !important;
+}

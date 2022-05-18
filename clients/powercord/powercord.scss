@@ -1,0 +1,16 @@
+.powercord-codeblock-lang {
+    color: var(--text-normal);
+    border-bottom: 1px solid var(--background-modifier-accent);
+    padding: 8px;
+    margin-bottom: 6px;
+    font-size: .8em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+.powercord-codeblock-table td:first-child {
+    border-right: 5px solid transparent !important;
+    padding-left: 8px;
+    padding-right: 8px;
+    user-select: none;
+}

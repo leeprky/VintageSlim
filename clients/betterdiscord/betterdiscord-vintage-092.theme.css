@@ -1,0 +1,145 @@
+/**
+ * @name Vintage [BETA]
+ * @author Leeprky#2063
+ * @version 0.9.2
+ * @description A Windows XI x Material You Mix With a Rustic Feel
+ * @source https://github.com/leeprky/Vintage
+ * @updateUrl https://raw.githubusercontent.com/leeprky/Vintage/main/clients/betterdiscord/betterdiscord.theme.css
+ * @authorId 224524143482241035
+ * @invite Ff3rqAYB89
+ * @donate https://www.paypal.com/paypalme/leeparkinson22
+ * @website https://leeprky.github.io/
+*/
+
+/*
+                     .--------.
+                     | v0.9.2 |
+                     '--------' 
+          Last Updated: 07/05/2022 02:20 (UK)
+   Version: BetterDiscord (https://https://betterdiscord.app)
+*/
+
+/* Main */
+@import url("https://leeprky.github.io/Vintage/dist/main.css");
+@import url("https://leeprky.github.io/Vintage/clients/betterdiscord/betterdiscord.css");
+
+/*
+ ___        _  __       ___        _  _        ___ 
+ / __|      | |/ /      |_ _|      | \| |      / __|
+ \__ \      |   <        | |       | .  |      \__ \
+ |___/      |_|\_\      |___|      |_|\_|      |___/
+*/
+
+/* When Changing Skins Make Sure To Un-Comment (Green) The Previous Skin. */
+
+/* If You Wish To Edit A Theme OR Create Your Own | Remove '/*' At Start Of Line Below Then Open That File & Edit As You Like */
+/* @use "./module/skin/custom";
+
+/**/
+
+/* Vanilla Skin - By Discord */
+/* @use "../../modules/skin/vanilla";
+
+/* Brown Skin - By Leeprky#2063 */
+@import url("https://leeprky.github.io/Vintage/modules/skin/brown.css");
+
+/* Lavender Skin - By Lavender */
+/* @import url("https://leeprky.github.io/Vintage/modules/skin/lavender.css");
+
+/* Zelk Skin - By schnensch#4231 */
+/* @use "../../modules/skin/zelk";
+
+/* Ovel Skin - By Leeprky#2063 */
+/* @use "../../modules/skin/ovel";
+
+/*
+  __          __   ___    _          ___    __    __
+  /     | |   (_     |    / \   |V|    |    (_    |_ 
+  \__   |_|   __)    |    \_/   | |   _|_   __)   |__
+  */
+
+
+/* Menu Animations */
+@import "https://leeprky.github.io/Vintage/src/optional/macos.scss";
+
+
+/* MacOS Titlebar | Add '/*' At Start Of Line Below To Change To Windows Titlebar */
+@import "https://leeprky.github.io/Vintage/src/optional/macos.scss";
+:root {
+    --macos-close-bg-dark: #e92a2a25;
+    --macos-close-bg-light: #380d074b;
+    --macos-close-bg-hover: #e92a2a;
+
+    --macos-min-bg-dark: #ebdd1721;
+    --macos-min-bg-light: #3738074b;
+    --macos-min-bg-hover: #f7bc1b;
+
+    --macos-max-bg-dark: #12db3323;
+    --macos-max-bg-light: #07380f4b;
+    --macos-max-bg-hover: #12db33;
+}
+
+
+/* Emoji's */
+
+/* Google */
+/* @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Google.css");
+
+/* Apple */
+@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Apple.css");
+
+
+:root {
+/* Popout Modal Style */
+--popout-modal-badges-style: 30px;          /* No Wrap Around */
+/* --popout-modal-badges-style: 30px 30px;  /* Wraps Around To Right */
+
+/* Global Rounding */
+    --radius: 10px !important; /* 6 Is Squareish | 12 Is Bubbly */
+    --avatar-radius: 12% !important; /* 12% is square | 24% is bubbly */
+
+/* Pop Out Buttons */
+    --pop-transiton-time: ease-in-out 0.4s;
+
+/* Scrollbar Display */
+    --scrollbar-display: none !important;
+
+/* Popout */
+    --avatar-popout-banner-blur: blur(2px);
+    --avatar-popout-banner-opacity: 0.4;
+
+/* Watermark Title */
+    --watermark-Alignment: 50%; 
+    --watermark-offset: 4%; /* (4%) Higher = More Left */
+    --watermark-text: "" var(--theme) " v" var(--version) " - (" var(--style-name) ") -  by " var(--style-creator) ""; 
+
+/* User Status Indicator's */
+    --rs-small-spacing:0;
+    --rs-large-spacing:0;
+    --rs-width:2px;
+    --rs-avatar-shape:var(--avatar-radius);
+    --rs-online-color:#79ff8b;
+    --rs-idle-color:#ffcc74;
+    --rs-dnd-color:#ff7979;
+    --rs-offline-color:#fff9f9;
+    --rs-streaming-color:#b68bff;
+    --rs-invisible-color:#ffe9e9;
+    
+/* Windows Buttons | Requires MacOS Buttons To Be Commented Out - Line 27 */
+    --win-buttons-width: 42px;
+
+    --win-close-background-colour: #b9534681;
+    --win-close-text-colour: #ffefec;
+
+    --win-max-background-colour: #c5a74e79;
+    --win-max-text-colour: #ffefc1;
+
+    --win-min-background-colour: #60a86073;
+    --win-min-text-colour: #beffbe;
+    --win-min-border-radius: 0px 0px 0px 12px;
+}
+
+:root {
+    --version: "0.9.2BD" !important;
+    --build:"092BD" !important;
+}
