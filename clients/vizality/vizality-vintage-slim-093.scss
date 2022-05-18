@@ -1,19 +1,18 @@
 //
-//       ░█──░█ ▀█▀ ░█▄─░█ ▀▀█▀▀ ─█▀▀█ ░█▀▀█ ░█▀▀▀
-//       ─░█░█─ ░█─ ░█░█░█ ─░█── ░█▄▄█ ░█─▄▄ ░█▀▀▀
+//       ░█──░█ ▀█▀ ░█▄─░█ ▀▀█▀▀ ─█▀▀█ ░█▀▀█ ░█▀▀▀ 
+//       ─░█░█─ ░█─ ░█░█░█ ─░█── ░█▄▄█ ░█─▄▄ ░█▀▀▀ 
 //       ──▀▄▀─ ▄█▄ ░█──▀█ ─░█── ░█─░█ ░█▄▄█ ░█▄▄▄
 
 //                     .--------.
 //                     | v0.9.3 |
-//                     '--------'
+//                     '--------' 
 //          Last Updated: 07/05/2022 02:20 (UK)
-//    Version: Powercord (https://https://powercord.dev/)
+//       Version: Vizality (https://vizality.com/)
 
-// Main
 @use "../../main.scss";
 
-// Powercord Specific
-@use "./powercord.scss";
+// Vizality Specific
+@use "./vizality.scss";
 
 // ___        _  __       ___        _  _        ___
 // / __|      | |/ /      |_ _|      | \| |      / __|
@@ -27,24 +26,13 @@
 
 // // // // // // //
 
-// Glasscord Skin - By Nyaomi#9646 (WORK IN PROGRESS)
-// ENABLE WITH ANOTHER SKIN TO USE
-// @use "../../modules/skin/glasscord.css";
-
-// // // // // // //
-
-// Wallpaper - Disable Other Skins To Use (WORK IN PROGRESS)
-// @use "../../modules/skin/image.scss";
-
-// // // // // // //
-
 // Client Skins
 
 // Powercord Skin
-@use "./powercord-skin.css";
+// @use "../powercord/powercord-skin.css";
 
 // Vizality Skin
-// @use "../vizality/vizality-skin.css";
+@use "../vizality/vizality-skin.css";
 
 // BetterDiscord Skin
 // @use "../betterdiscord/betterdiscord.skin.css";
@@ -82,46 +70,11 @@
 //  /     | |   (_     |    / \   |V|    |    (_    |_
 //  \__   |_|   __)    |    \_/   | |   _|_   __)   |__
 
-// Menu Animations
-// @use "../../src/optional/menu-animations.scss";
-
-// Pop Animations
-@use "../../modules/import/pop";
-
 // New Server List
 @use "../../src/components/serverlist";
 
 // Legacy Server List
 // @use "../../src/components/serverlist-2";
-
-// No Nitro
-@use "../../src/optional/no-nitro.scss";
-
-// Horizontal Server List - Rough But Functional
-//@use "../../src/optional/horizontal-server-list.scss";
-
-//MacOS Titlebar | Add '/*' At Start Of Line Below To Change To Windows Titlebar
-@use "../../src/optional/macos.scss";
-:root {
-    --macos-close-bg-dark: #e92a2a25;
-    --macos-close-bg-light: #380d074b;
-    --macos-close-bg-hover: #e92a2a;
-
-    --macos-min-bg-dark: #ebdd1721;
-    --macos-min-bg-light: #3738074b;
-    --macos-min-bg-hover: #f7bc1b;
-
-    --macos-max-bg-dark: #12db3323;
-    --macos-max-bg-light: #07380f4b;
-    --macos-max-bg-hover: #12db33;
-}
-/* */
-
-//Emoji's
-//Google
-//@import url("https:/*mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Google.css");
-//Apple
-@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Apple.css");
 
 // Wallpaper Customisation (WORK IN PROGRESS)
 :root {
@@ -204,6 +157,6 @@
 }
 
 :root {
-    --version: "0.9.3PC" !important;
-    --build: "093PC" !important;
+    --version: "0.9.3VIS" !important;
+    --build: "093VIS" !important;
 }
